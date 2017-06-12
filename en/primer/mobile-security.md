@@ -4,9 +4,9 @@ Mobile security entails many of the challenges of Web security – a wide audien
 
 ## The Mobile Attack Surface
 
-As illustrated below, a mobile attack can involve the device layer, the network layer, the data center, or a combination of these. Inherent platform vulnerabilities and social engineering continue to pose major opportunities for cyber thieves and thus significant challenges for those looking protect user data. 
+As illustrated below, a mobile attack can involve the device layer, the network layer, the data center, or a combination of these. Inherent platform vulnerabilities and social engineering continue to pose major opportunities for cyber thieves and thus significant challenges for those looking protect user data.
 
-![Anatomy of a Mobile Attack](/assets/mobile-attack-surface.png)
+![Anatomy of a Mobile Attack](/en/assets/mobile-attack-surface.png)
 
 ### Attack Vectors
 
@@ -132,7 +132,7 @@ Web server-based attacks and vulnerabilities include:
 
 **Weak input validation** – Many Web services overly trust the input coming from mobile applications, relying on the application to validate data provided by the end user. However, attackers can forge their own communication to the web server or bypass the application’s logic checks entirely, allowing them to take advantage of missing validation logic on the server to perform unauthorized actions.
 
-**Brute-force attacks** – A brute-force attack simply tries to guess the valid inputs to a field, often using a high rate of attempts and dictionaries of possible values. The most common usage of a brute-force attack is on authentication, but it can also be used to discover other valid values in a Web app. 
+**Brute-force attacks** – A brute-force attack simply tries to guess the valid inputs to a field, often using a high rate of attempts and dictionaries of possible values. The most common usage of a brute-force attack is on authentication, but it can also be used to discover other valid values in a Web app.
 
 
 ### Database attacks
@@ -156,4 +156,3 @@ Mobile applications typically fall under three operational categories:
 **Native** – Installed apps that operate off the native mobile device operating system, compiled for the specific mobile platform and leveraging its APIs. These are typically (though not always) downloaded and installed via an app market.
 
 **Wrapper** – Apps that operate by leveraging web pages inside a dedicated native application wrapper, also sometimes referred to as “shell apps” or “hybrid apps.” While appearing as a native app to the end user, the web-based functionality can result in different vulnerabilities than are found in fully native coded apps.
-
