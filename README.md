@@ -8,11 +8,11 @@ This guide gives specific recommendations to use during your development process
 
 We revise our best practices periodically and invite [contributions](https://github.com/nowsecure/secure-mobile-development/pulls), and the updated guide is published [here](https://books.nowsecure.com/secure-mobile-development/) as changes are accepted into the main repository.
 
-To learn about all the vectors that attackers might use on your app, read our [Mobile Security Primer](en/primer/mobile-security.md).
+To learn about all the vectors that attackers might use on your app, read our [Mobile Security Primer](en/primer/mobile-security.md) / [移动安全入门](zh/primer/mobile-security.md).
 
 ### Categories
 
-We categorize our Secure Mobile Development Best Practices under eight topics. You can find a complete table of contents [here](en/SUMMARY.md)
+We categorize our Secure Mobile Development Best Practices under eight topics. You can find a complete table of contents [here](en/SUMMARY.md) / [中文](zh/SUMMARY.md)
 
 * [Coding Practices](en/coding-practices/README.md)
 * [Handling Sensitive Data](en/sensitive-data/README.md)
