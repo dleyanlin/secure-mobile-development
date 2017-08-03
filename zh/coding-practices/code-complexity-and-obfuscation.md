@@ -1,12 +1,12 @@
-# 增加代码复杂性和使用混淆
+# 增加代码复杂性并使用混淆
 
 ## 详细描述
 
-反向工程应用程序可以提供有价值的洞察您的应用程序的工作原理。 使您的应用程序在内部更复杂，攻击者更难以看到应用程序如何操作，这可以减少攻击面的数量。
+逆向工程应用程序可以提供有价值的洞察您的应用程序的工作原理。 让您的应用程序在内部更复杂，使攻击者更难以看到应用程序如何操作，这可以减少攻击面的数量。
 
 ## 建议
 
-反向工程一个Android应用程序（.apk文件）是很容易实现的，然后可以检查应用程序的内部工作。 混淆代码，以使恶意用户更难以检查应用程序的内部工作，如下面链接到Android开发人员参考文章中所述。
+逆向工程一个Android应用程序（.apk文件）是很容易实现的，然后可以检查应用程序的内部工作。 混淆代码，以使恶意用户更难以检查应用程序的内部工作，如下面链接到Android开发人员参考文章中所述。
 
 此外，由于iOS应用程序的设计方式，它们容易受到逆向工程攻击。 应用程序的类和协议存储在对象文件中，允许攻击者完全映射应用程序的设计。 Objective-C本身是一种反射语言，能够感知和修改自己的状态; 具有正确工具的攻击者可以以与运行时管理应用程序相同的方式感知和修改应用程序的状态。 Objective-C包含一个简单的消息框架，它非常容易跟踪，并且可以被操纵来拦截甚至篡改应用程序的运行时。 可以使用相对简单的攻击来操纵Objective-C运行时绕过身份验证和策略检查，内部应用程序健全检查或警告应用程序策略的那种逻辑检查。
 
@@ -45,4 +45,3 @@
  * [OWASP Mobile Application Security Verification Standard, Resiliency Against Reverse Engineering Requirements](https://github.com/OWASP/owasp-masvs/blob/master/Document/0x15-V9-Resiliency_Against_Reverse_Engineering_Requirements.md)
  * [M8 - Security Decisions via Untrusted Inputs](https://www.owasp.org/index.php/Mobile_Top_10_2014-M8); [M10 - Lack of Binary Protections](https://www.owasp.org/index.php/Mobile_Top_10_2014-M10)
  * [CWE-656: Reliance on Security Through Obscurity](http://cwe.mitre.org/data/definitions/656.html)
-
