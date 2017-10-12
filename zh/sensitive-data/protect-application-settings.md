@@ -1,6 +1,6 @@
 # 保护应用程序设置
 
-## 详细描述 
+## 详细描述
 
 iOS开发人员经常将应用程序设置存储在plist文件中，在某些情况下可能会受到损害。 类似地，Android开发人员通常将设置存储在共享首选项XML文件或SQLite数据库中，这些数据库在默认情况下未加密，可以使用root权限读取或甚至修改，或使用备份。
 
@@ -10,5 +10,5 @@ iOS开发人员经常将应用程序设置存储在plist文件中，在某些情
 
 ## CWE/OWASP
 
- * [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M2), [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4)
- * [CWE 312](http://cwe.mitre.org/data/definitions/312.html), [313](http://cwe.mitre.org/data/definitions/313.html)
+* [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
+* [CWE 312](http://cwe.mitre.org/data/definitions/312.html), [313](http://cwe.mitre.org/data/definitions/313.html)

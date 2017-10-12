@@ -1,5 +1,5 @@
 # 限制使用UUID
-## 详细描述 
+## 详细描述
 
 大多数移动设备具有在制造时为了识别目的而分配的唯一ID（也称为通用唯一标识符（UUID））。 例如，iOS设备分配了所谓的唯一设备标识符（UDID）。 唯一标识设备的能力对于获取，管理和保护数据通常很重要。 开发人员迅速采用UUID和UDID进行设备识别，从而使其成为许多系统的安全基础。
 
@@ -20,8 +20,8 @@
 ## 参考
 
  * [Unique Identifiers in iOS](https://possiblemobile.com/2013/04/unique-identifiers/)
- 
+
 ## CWE/OWASP
 
- * [M5 - Poor Authorization and Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2014-M5)
- * [CWE-200: Information Exposure](http://cwe.mitre.org/data/definitions/200.html)
+* [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
+* [CWE-200: Information Exposure](http://cwe.mitre.org/data/definitions/200.html)

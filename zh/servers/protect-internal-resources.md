@@ -1,6 +1,6 @@
 # 保护内部资源
 
-## 详细描述 
+## 详细描述
 
 用于内部使用的资源（例如管理员登录表单）经常使用可能被暴力破解的身份验证。 例如无锁定的HTTP或表单认证。 管理或其他内部资源的泄露可能导致广泛的数据丢失和其他损害。
 
@@ -10,5 +10,5 @@
 
 ## CWE/OWASP
 
- * [M1 - Weak Server Side Controls](https://www.owasp.org/index.php/Mobile_Top_10_2014-M1)
- * [CWE 200 - Multiple CWE's](http://cwe.mitre.org/data/definitions/200.html)
+* [M3 - Insecure Communication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
+* [CWE 200 - Multiple CWE's](http://cwe.mitre.org/data/definitions/200.html)

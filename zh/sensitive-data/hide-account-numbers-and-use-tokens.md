@@ -1,6 +1,6 @@
 # 隐藏帐号并使用令牌
 
-## 详细信息 
+## 详细信息
 
 许多app在各种UI显示中存储完整的帐号。
 
@@ -11,9 +11,13 @@
 在iOS中，如果你意识到
 
 ```
-> - (BOOL)textField:(UITextField *)textField 
+> - (BOOL)textField:(UITextField *)textField
 
 > shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 ```
 
 作为文本字段的委托的一部分，您可以更改输入文本的可见性。
+
+## CWE/OWASP
+
+* [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)

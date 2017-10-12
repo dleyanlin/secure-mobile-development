@@ -1,6 +1,6 @@
 # 实施正确的Web服务器配置
 
-## 详细描述 
+## 详细描述
 
 Web服务器上的某些设置可以提高安全性。 Web服务器上通常被忽视的漏洞是信息泄露。 信息泄露可能导致严重的问题，因为每一个信息攻击者都可以从服务器获得使攻击更容易。
 
@@ -13,8 +13,8 @@ Web服务器上的某些设置可以提高安全性。 Web服务器上通常被�
 可以大大提高安全性的服务器中的一个配置更改是更改任何默认目录。 攻击者经常在Internet上搜索具有“low-hanging fruit”的网站，例如默认登录，容易猜到的管理界面，以及简单的“隐藏”目录命名方案。 这是一个好的策略，模糊处理需要网络访问的服务器上的任何敏感网页的位置。
 
 管理或其他限制区域不应公开网络访问，除非绝对必要，并且必须抵抗暴力攻击。 HTTP认证或没有锁定保护的表单认证可以（并且将）被暴力攻击。
- 
+
 ## CWE/OWASP
 
- * [M1 - Weak Server Side Controls](https://www.owasp.org/index.php/Mobile_Top_10_2014-M1)
- * [CWE 203](http://cwe.mitre.org/data/definitions/203.html)
+* [M10 - Extraneous Functionality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality)
+* [CWE 203](http://cwe.mitre.org/data/definitions/203.html)

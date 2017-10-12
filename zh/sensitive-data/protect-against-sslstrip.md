@@ -20,7 +20,5 @@
 
 ## CWE/OWASP
 
- * OWASP Mobile Top 10: [M3- Insufficient Transport Layer Protection](https://www.owasp.org/index.php/Mobile_Top_10_2014-M3)
- * CWE: [CWE-757: Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')](http://cwe.mitre.org/data/definitions/757.html)
-
-
+* [M3 - Insecure Communication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
+* [CWE-757: Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')](http://cwe.mitre.org/data/definitions/757.html)

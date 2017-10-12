@@ -2,7 +2,7 @@
 
 通常，iOS开发人员会将应用程序设置存储在plist文件中，在某些情况下这可能会受到影响。
 
-## 详细描述 
+## 详细描述
 
 当应用程序正在使用时，用户或应用程序特定的数据可以存储在RAM中，并且在用户注销或会话超时时不会正确清除。 因为Android将应用程序存储在内存中（即使在使用后），直到内存被回收，加密密钥可能会保留在内存中。 发现或窃取设备的攻击者可以附加调试器并从应用程序转储内存，或者加载内核模块以转储内存中的全部内容。
 
@@ -18,7 +18,7 @@
 
 ## CWE/OWASP
 
- * [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4)
+ * [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
  * [CWE-316: Cleartext Storage of Sensitive Information in Memory](http://cwe.mitre.org/data/definitions/316.html)
  * [CWE-200: Information Exposure](http://cwe.mitre.org/data/definitions/200.html)
  * [CVE-2014-0160 Heartbleed](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160)

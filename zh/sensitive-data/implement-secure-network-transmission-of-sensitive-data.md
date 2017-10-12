@@ -1,6 +1,6 @@
 # 使用安全的网络传输方法传输敏感数据
 
-## 详细描述 
+## 详细描述
 
 与网络浏览器不同，移动设备通常不会公开应用程序是否使用SSL / TLS来保护数据传输，因此应用程序用户只能相信应用程序的开发人员已实施网络加密。
 
@@ -14,9 +14,9 @@
 
 为了防止通过受损的SSL / TLS连接拦截高度敏感的值（例如登录ID，密码，PIN，帐号等），请在传输过程中增加额外的加密。 使用密钥大小256为AES（也称为Rijndael）加密高度敏感的值。而对于hash，请使用诸如SHA-256或更高版本的算法。
 
-在服务器端，请考虑仅接受强TLS密码和密钥，并禁用较低级别的加密，例如导出级40位加密 (参考 8.2 [正确配置服务器端SSL](../servers/server-side-ssl-configuration.md)) 
+在服务器端，请考虑仅接受强TLS密码和密钥，并禁用较低级别的加密，例如导出级40位加密 (参考 8.2 [正确配置服务器端SSL](../servers/server-side-ssl-configuration.md))
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * OWASP Mobile Top 10: [M3- Insufficient Transport Layer Protection](https://www.owasp.org/index.php/Mobile_Top_10_2014-M3)
- * CWE: [CWE-311 - Missing Encryption of Sensitive Data](http://cwe.mitre.org/data/definitions/311.html), [CWE-319 - Cleartext Transmission of Sensitive Information](http://cwe.mitre.org/data/definitions/319.html)
+* [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
+* CWE: [CWE-311 - Missing Encryption of Sensitive Data](http://cwe.mitre.org/data/definitions/311.html), [CWE-319 - Cleartext Transmission of Sensitive Information](http://cwe.mitre.org/data/definitions/319.html)

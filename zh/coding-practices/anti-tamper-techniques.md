@@ -1,6 +1,6 @@
 # 实施防篡改技术
 
-## 详细描述 
+## 详细描述
 
 攻击者可以在应用上篡改或安装后门，重新签名并将恶意版本发布到第三方应用市场。 这种攻击通常针对流行的应用程序和金融应用程序。
 
@@ -12,11 +12,11 @@
 
 在Android上，用于签名应用程序的公钥可以从应用程序的证书中读取，并用于验证应用程序是否已使用开发人员的私钥签名。 使用PackageManager类，可以检索应用程序的签名，然后将它们与正确的值进行比较。 如果有人篡改或重新签名了应用程序，比较将失败，导致检测到篡改应用程序。
 
-## 参考 
+## 参考
 
  * Android - [https://gist.github.com/scottyab/b849701972d57cf9562e](https://gist.github.com/scottyab/b849701972d57cf9562e)
- 
+
 ## CWE/OWASP
 
- * [M10 - Lack of Binary Protections](https://www.owasp.org/index.php/Mobile_Top_10_2014-M10)
+ * [M9 - Reverse Engineering](https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering), [M8 - Code Tampering](https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering)
  * [CWE-354: Improper Validation of Integrity Check Value](http://cwe.mitre.org/data/definitions/354.html)

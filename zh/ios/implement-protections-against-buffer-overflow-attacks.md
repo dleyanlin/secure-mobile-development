@@ -1,6 +1,6 @@
 # 保护针对缓冲区溢出的攻击
 
-## 详细描述 
+## 详细描述
 
 这个最佳实践涵盖了三个iOS代码实现，帮助开发人员减轻缓冲区溢出攻击他们的应用程序的风险：自动引用计数（ARC），地址空间布局随机化（ASLR）和堆栈崩溃保护。
 
@@ -34,10 +34,9 @@ ASLR（地址空间布局随机化）是iOS 4.3中引入的一种安全功能，
 
   * [Address Space Layout Randomization](https://developer.apple.com/library/prerelease/content/documentation/Security/Conceptual/SecureCodingGuide/Articles/BufferOverflows.html#//apple_ref/doc/uid/TP40002577-SW22) - https://developer.apple.com/library/prerelease/content/documentation/Security/Conceptual/SecureCodingGuide/Articles/BufferOverflows.html#//apple_ref/doc/uid/TP40002577-SW22
 
-  * [Other Compiler Flags That Affect Security](https://developer.apple.com/library/content/documentation/Security/Conceptual/SecureCodingGuide/Articles/BufferOverflows.html#//apple_ref/doc/uid/TP40002577-SW26) - https://developer.apple.com/library/content/documentation/Security/Conceptual/SecureCodingGuide/Articles/BufferOverflows.html#//apple_ref/doc/uid/TP40002577-SW26 
+  * [Other Compiler Flags That Affect Security](https://developer.apple.com/library/content/documentation/Security/Conceptual/SecureCodingGuide/Articles/BufferOverflows.html#//apple_ref/doc/uid/TP40002577-SW26) - https://developer.apple.com/library/content/documentation/Security/Conceptual/SecureCodingGuide/Articles/BufferOverflows.html#//apple_ref/doc/uid/TP40002577-SW26
 
 ## CWE/OWASP
 
-  * OWASP Mobile Top 10: [M10 - Lack of Binary Protections](https://www.owasp.org/index.php/Mobile_Top_10_2014-M10)
-  * CWE: [CWE-121 - Stack-based Buffer Overflow](https://cwe.mitre.org/data/definitions/121.html), [CWE-200 - Information Exposure](http://cwe.mitre.org/data/definitions/200.html)
-  
+* [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
+* [CWE-121 - Stack-based Buffer Overflow](https://cwe.mitre.org/data/definitions/121.html), [CWE-200 - Information Exposure](http://cwe.mitre.org/data/definitions/200.html)

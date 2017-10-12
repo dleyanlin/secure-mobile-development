@@ -16,7 +16,7 @@ Android和iOS可以使用GPS准确地确定位置。 处理此GPS数据是一个
 
  * [http://www.sans.org/reading-room/whitepapers/forensics/forensic-analysis-ios-devices-34092](http://www.sans.org/reading-room/whitepapers/forensics/forensic-analysis-ios-devices-34092)
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4)
- * [CWE 200](http://cwe.mitre.org/data/definitions/200.html)
+* [M1 - Improper Platform Usage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage)
+* [CWE 200](http://cwe.mitre.org/data/definitions/200.html)

@@ -1,6 +1,6 @@
 # 使用合适的会话管理
 
-## 详细描述 
+## 详细描述
 
 大多数应用程序都通过可能容易受到攻击的Cookie来维护用户的会话。
 
@@ -10,5 +10,5 @@ Web语言（例如Java，.NET）提供会话管理，这是经过良好开发和
 
 ## CWE/OWASP
 
- * [M9 - Improper Session Handling](https://www.owasp.org/index.php/Mobile_Top_10_2014-M9)
- * [CWE 613](http://cwe.mitre.org/data/definitions/613.html)
+* [M6 - Insecure Authorization](https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization)
+* [CWE 613](http://cwe.mitre.org/data/definitions/613.html)

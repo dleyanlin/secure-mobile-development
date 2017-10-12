@@ -1,6 +1,6 @@
 # 谨慎使用keychain
 
-## 详细描述 
+## 详细描述
 
 iOS提供了安全数据存储的钥匙串。 然而，在几种情况下，钥匙串可能被泄密并随后被解密。
 
@@ -18,14 +18,14 @@ iOS提供了安全数据存储的钥匙串。 然而，在几种情况下，钥�
 最后，对于高度敏感的数据，考虑使用应用程序级加密来增强钥匙串提供的保护。 例如，依靠用户输入密码在应用程序内进行认证，然后使用该密码在将数据存储到密钥链之前对数据进行加密。
 
 ## 参考
- 
+
  * [Keychain Services Programming Guide][1]
-	
+
 ## CWE/OWASP
 
- * [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M2); [M5 - Poor Authorization and Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2014-M5)
- * [CWE-312: Cleartext Storage of Sensitive Information](http://cwe.mitre.org/data/definitions/312.html)
- * [CWE-522: Insufficiently Protected Credentials](http://cwe.mitre.org/data/definitions/522.html)
+* [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage), [M4 - Insecure Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication)
+* [CWE-312: Cleartext Storage of Sensitive Information](http://cwe.mitre.org/data/definitions/312.html)
+* [CWE-522: Insufficiently Protected Credentials](http://cwe.mitre.org/data/definitions/522.html)
 
 <!-- Links -->
 [1]: https://developer.apple.com/library/ios/documentation/security/Conceptual/keychainServConcepts/01introduction/introduction.html#//apple_ref/doc/uid/TP30000897

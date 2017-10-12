@@ -67,7 +67,7 @@
 
 如果无法对处理高度敏感数据的任何应用程序功能实施证书锁定，请实施正确的证书验证，该证书验证由两部分组成：
 
-1. **Certificate validation:** 呈现给应用程序的证书必须由应用程序完全验证，并由受信任的根CA进行签名。 
+1. **Certificate validation:** 呈现给应用程序的证书必须由应用程序完全验证，并由受信任的根CA进行签名。
 2. **Hostname validation:** 应用程序必须检查并验证从证书提取的主机名（公用名或CN）与应用程序要与之通信的主机的主机名相匹配。
 
 ### Android 建议
@@ -96,23 +96,23 @@ httpClient实例可以被配置为仅允许接受存在于应用程序内存储�
     ThreadSafeClientConnManager clientMan = new ThreadSafeClientConnManager(httpParams, schemeRegistry);
 
     httpClient = new DefaultHttpClient(clientMan, httpParams);
-    
+
 ```
 
-有关在Android中实现证书锁定的更多信息，请参阅OWASP [Certificate and Public Key Pinning guide](https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning#Android) 
+有关在Android中实现证书锁定的更多信息，请参阅OWASP [Certificate and Public Key Pinning guide](https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning#Android)
 
 此外，[CWAC-NetSecurity](https://github.com/commonsguy/cwac-netsecurity) 是一个将Android 7.0网络安全配置子系统返回到API级别17（Android 4.2）的库。它使得将应用程序绑定到特定的证书颁发机构或证书更容易。支持自签名证书，以及处理其他高级SSL证书方案。
 
 ### For iOS
-一个方案是使用`NSURLSession`或`AFNetworking`类在iOS中实现证书锁定。 此实现的其他详细信息可以在apple developer网站上[HTTPS Server Trust Evaluation](https://developer.apple.com/library/ios/technotes/tn2232/_index.html)中找到。 
+一个方案是使用`NSURLSession`或`AFNetworking`类在iOS中实现证书锁定。 此实现的其他详细信息可以在apple developer网站上[HTTPS Server Trust Evaluation](https://developer.apple.com/library/ios/technotes/tn2232/_index.html)中找到。
 
 此外，一个开源框架的[TrustKit](https://github.com/datatheorem/TrustKit)可以帮助开发人员更容易地在iOS中部署公钥锁定。
 
 ## 参考
 
-* [Your app shouldn’t suffer SSL’s problems](https://moxie.org/blog/authenticity-is-broken-in-ssl-but-your-app-ha/) - https://moxie.org/blog/authenticity-is-broken-in-ssl-but-your-app-ha/ 
+* [Your app shouldn’t suffer SSL’s problems](https://moxie.org/blog/authenticity-is-broken-in-ssl-but-your-app-ha/) - https://moxie.org/blog/authenticity-is-broken-in-ssl-but-your-app-ha/
 
 ## CWE/OWASP
 
- * OWASP Mobile Top 10: [M3- Insufficient Transport Layer Protection](https://www.owasp.org/index.php/Mobile_Top_10_2014-M3)
- * CWE: [CWE-319 - Cleartext Transmission of Sensitive Information](http://cwe.mitre.org/data/definitions/319.html)
+* [M3 - Insecure Communication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication)
+* [CWE-319 - Cleartext Transmission of Sensitive Information](http://cwe.mitre.org/data/definitions/319.html)

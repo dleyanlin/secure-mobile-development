@@ -1,6 +1,6 @@
 # 正确配置服务器端SSL
 
-## 详细描述 
+## 详细描述
 
 许多Web服务器允许较低的加密设置，例如非常弱的导出级40位加密。 实施强密码套件以保护用于创建共享密钥，在客户端和服务器之间加密消息，以及生成消息哈希和签名以确保这些消息的完整性的信息。 还要确保禁用弱协议。
 
@@ -27,11 +27,11 @@ TLSv1已超过10年，并且在2009年被发现很容易受到“重新协商攻
 
 如需获取有关如何安全地设计和配置应用程序的传输层安全性的更多信息。参考 OWASP [Transport Layer Protection Cheat Sheet](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet) for more information about how to securely design and configure transport layer security for an app.
 
-## 参考 
+## 参考
 
 * [Why Android SSL was downgraded from AES256-SHA to RC4-MD5 in late 2010](http://op-co.de/blog/posts/android_ssl_downgrade/) - http://op-co.de/blog/posts/android_ssl_downgrade/
 
 ## CWE/OWASP
 
- * OWASP Mobile Top 10: [M1 - Weak Server Side Controls](https://www.owasp.org/index.php/Mobile_Top_10_2014-M1)
- * CWE: [CWE-326 - Inadequate Encryption Strength](http://cwe.mitre.org/data/definitions/326.html)
+* [M3 - Insecure Communication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication)
+* [CWE-326 - Inadequate Encryption Strength](http://cwe.mitre.org/data/definitions/326.html)

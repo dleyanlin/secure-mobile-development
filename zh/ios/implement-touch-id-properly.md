@@ -1,6 +1,6 @@
 # 正确应用Touch ID
 
-## 详细描述 
+## 详细描述
 
 Touch ID通常被用来允许用户在不输入密码的情况下对其设备进行认证和解锁。 一些开发人员还使用Touch ID，允许用户使用存储的设备指纹对其应用进行身份验证。
 
@@ -18,8 +18,8 @@ Touch ID通常被用来允许用户在不输入密码的情况下对其设备进
 ## 参考
 
  * [KeychainTouchID: Using Touch ID with Keychain and LocalAuthentication](https://developer.apple.com/library/content/samplecode/KeychainTouchID/Introduction/Intro.html) - https://developer.apple.com/library/content/samplecode/KeychainTouchID/Introduction/Intro.html
- 
-## CWE/OWASP 
 
- * OWASP Mobile Top 10: [M5 - Poor Authorization and Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2014-M5)
- * CWE: [CWE-288 - Authentication Bypass Using an Alternate Path or Channel](http://cwe.mitre.org/data/definitions/288.html)
+## CWE/OWASP
+
+* [M4 - Insecure Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication), [M6 - Insecure Authorization](https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization)
+* [CWE-288 - Authentication Bypass Using an Alternate Path or Channel](http://cwe.mitre.org/data/definitions/288.html)

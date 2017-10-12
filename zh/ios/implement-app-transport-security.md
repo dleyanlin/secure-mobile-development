@@ -1,6 +1,6 @@
 # 应用ATS(App Transport Security)
 
-## 详细描述 
+## 详细描述
 
 iOS 9中的新功能，ATS(App Transport Security)有助于确保应用程序和任何后端服务器之间的安全连接。 默认情况下，当应用程序与iOS 9.0 SDK或更高版本链接时，它会启用。 启用ATS后，HTTP连接将强制使用HTTPS（TLS v1.2），并且使用不安全HTTP连接的任何尝试都将失败。
 
@@ -19,9 +19,8 @@ iOS 9中的新功能，ATS(App Transport Security)有助于确保应用程序和
  * [Android buckles down and iOS opens up? Trends in platform security affecting developers](https://www.nowsecure.com/blog/2016/08/24/android-buckles-ios-opens-trends-platform-security-affecting-developers/)
  * [iOS 10 Security Changes Slide Deck](https://nabla-c0d3.github.io/blog/2016/09/19/ios10-slide-deck/)
  * [As of December, 2016, only 20 percent of apps enable ATS](https://www.nowsecure.com/blog/2016/12/29/enable-ios-app-transport-security-ats/)
- 
-## CWE/OWASP 
 
- * OWASP Mobile Top 10: [M3 - Insufficient Transport Layer Protection](https://www.owasp.org/index.php/Mobile_Top_10_2014-M3)
- * CWE: [CWE-319 - Cleartext Transmission of Sensitive Information](http://cwe.mitre.org/data/definitions/319.html)
- 
+## CWE/OWASP
+
+ * [M3 - Insecure Communication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication)
+ * [CWE-319 - Cleartext Transmission of Sensitive Information](http://cwe.mitre.org/data/definitions/319.html)

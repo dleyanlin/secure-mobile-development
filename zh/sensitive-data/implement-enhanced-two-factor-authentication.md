@@ -1,6 +1,6 @@
 # 使用增强/双因素身份验证
 
-## 详细描述 
+## 详细描述
 
 弱或不存在的身份验证可以授予攻击者对应用程序的未经授权的访问权限。
 
@@ -19,7 +19,7 @@
 
 对于最高级别的安全性，使用一次性密码，要求用户不仅拥有正确的凭据，而且还要包括一次性密码的物理令牌。
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * OWASP Mobile Top 10: [M5 - Poor Authorization and Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2014-M5)
- * CWE: [CWE-308: Use of Single-factor Authentication](http://cwe.mitre.org/data/definitions/308.html)
+* [M4 - Insecure Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication)
+* CWE: [CWE-308: Use of Single-factor Authentication](http://cwe.mitre.org/data/definitions/308.html)

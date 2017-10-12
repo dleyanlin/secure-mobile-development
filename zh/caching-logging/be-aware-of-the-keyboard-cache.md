@@ -1,6 +1,6 @@
 # 注意键盘缓存
 
-## 详细描述 
+## 详细描述
 
 iOS记录用户键入的内容，以便提供自定义自动更正和表单完成等功能，但敏感数据也可以存储。 几乎每个非数字字按照键入的顺序缓存在键盘缓存中; 缓存的内容超出了应用程序的管理权限，因此应用程序无法从缓存中删除数据。
 
@@ -10,8 +10,7 @@ iOS记录用户键入的内容，以便提供自定义自动更正和表单完�
 
 Android包含用户字典，用户输入的字词可以保存以供将来自动更正。 此用户字典可用于没有特殊权限的任何应用程序。 为了提高安全性，请考虑实施自定义键盘（以及可能的PIN输入），这可以禁用缓存，并提供针对恶意软件的额外保护。
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4)
+ * [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
  * [CWE 200](http://cwe.mitre.org/data/definitions/200.html)
- 

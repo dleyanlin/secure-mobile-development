@@ -1,6 +1,6 @@
 # 谨慎管理调试日志
 
-## 详细描述 
+## 详细描述
 
 调试日志通常设计为用于检测和纠正应用程序中的缺陷。 这些日志可能泄漏敏感信息，这可能有助于攻击者创建更强大的攻击。
 
@@ -15,7 +15,7 @@
 在 *proguard.cfg* 中，添加以下代码段：
 
 ```
-> -assumenosideeffects class android.util.Log { 
+> -assumenosideeffects class android.util.Log {
 		> public static *** d(...);
 		> public static *** v(...);
 		> public static *** i(...);
@@ -37,7 +37,7 @@ becomes effectively a no-op.
 >	;
 ```
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * [M10 - Lack of Binary Protections](https://www.owasp.org/index.php/Mobile_Top_10_2014-M10); [M8 - Security Decisions via Untrusted Inputs](https://www.owasp.org/index.php/Mobile_Top_10_2014-M8)
+ * [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage), [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
  * [CWE 215](http://cwe.mitre.org/data/definitions/215.html)

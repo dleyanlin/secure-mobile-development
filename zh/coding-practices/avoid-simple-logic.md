@@ -1,6 +1,6 @@
 # 避免简单逻辑
 
-## 详细描述 
+## 详细描述
 
 代码中的简单逻辑测试更容易受到攻击。 例如：
 
@@ -22,7 +22,7 @@ session.trusted = TRUE
 
 这样的值可以由应用程序当前使用的类的实例内的攻击者读取和写入。 在iOS上，通过操作Objective-C运行时，可以操纵这些变量，以便下次应用程序引用这些变量时，将读取任何操作的值。
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * [M8 - Security Decisions via Untrusted Inputs](https://www.owasp.org/index.php/Mobile_Top_10_2014-M8); [M10 - Lack of Binary Protections](https://www.owasp.org/index.php/Mobile_Top_10_2014-M10)
+ * [M8 - Code Tampering](https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering), [M9 - Reverse Engineering](https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering)
  * [CWE 200](http://cwe.mitre.org/data/definitions/200.html)

@@ -1,6 +1,6 @@
 # 避免崩溃日志
 
-## 详细描述 
+## 详细描述
 
 有很多用于跟踪用户使用情况并收集iOS和Android的崩溃日志的framework，这些framework都是开发的有用工具，但重要的是要在开发人员的足够调试信息和攻击者的信息减少之间找到平衡。
 
@@ -14,8 +14,7 @@
 
 此外，如果应用程序被混淆和剥离，开发人员将需要保留一个地址到符号数据库，以便在崩溃日志中恢复有意义的回溯，使攻击者的生活更加困难，因为在函数中缺乏可理解的名称。
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4)
+ * [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
  * [CWE 215](http://cwe.mitre.org/data/definitions/215.html)
-

@@ -1,6 +1,6 @@
 # 注意复制和粘贴
 
-## 详细描述 
+## 详细描述
 
 iOS和Android都支持复制/粘贴。 敏感数据可以以明文形式存储，恢复或者可以从剪贴板修改，而不管数据的源是否最初被加密。 如果在用户复制它时它是纯文本，当其他应用程序访问剪贴板时，它将是明文。
 
@@ -12,8 +12,7 @@ iOS和Android都支持复制/粘贴。 敏感数据可以以明文形式存储�
 
 此外，值得注意的是在取得内容后清除剪贴板，以避免其他应用程序读取它们并泄漏用户正在做什么。
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4)
+ * [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
  * [CWE 200](http://cwe.mitre.org/data/definitions/200.html)
- 

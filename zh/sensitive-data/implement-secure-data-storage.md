@@ -1,6 +1,6 @@
 # 实现安全数据存储
 
-## 详细信息 
+## 详细信息
 
 在移动设备上安全地存储数据需要适当的技术。 只要有可能***“简单地不要存储或缓存数据”*** 是避免数据在设备上被获取最直接的方式。
 
@@ -41,7 +41,7 @@ iOS中内置的数据保护API与复杂的密码短语相结合，可以提供�
  * [Android/iOS Full Database Encryption](http://sqlcipher.net/) - http://sqlcipher.net/
  * [Android Storage Options](http://developer.android.com/guide/topics/data/data-storage.html) - http://developer.android.com/guide/topics/data/data-storage.html
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * OWASP Mobile Top 10: [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M2)
- * CWE: [CWE-312 - Cleartext Storage of Sensitive Information](http://cwe.mitre.org/data/definitions/312.html), [CWE-313 - Cleartext Storage in a File or on Disk](http://cwe.mitre.org/data/definitions/313.html), [CWE-522 - Insufficiently Protected Credentials](http://cwe.mitre.org/data/definitions/522.html), [CWE-215 - Information Exposure Through Debug Information](http://cwe.mitre.org/data/definitions/215.html)
+* [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
+* [CWE-312 - Cleartext Storage of Sensitive Information](http://cwe.mitre.org/data/definitions/312.html), [CWE-313 - Cleartext Storage in a File or on Disk](http://cwe.mitre.org/data/definitions/313.html), [CWE-522 - Insufficiently Protected Credentials](http://cwe.mitre.org/data/definitions/522.html), [CWE-215 - Information Exposure Through Debug Information](http://cwe.mitre.org/data/definitions/215.html)

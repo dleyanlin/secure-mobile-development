@@ -1,6 +1,6 @@
 # 本地会话超时机制
 
-## 详细描述 
+## 详细描述
 
 移动设备经常丢失或被盗，攻击者可以利用活动的会话来访问敏感数据，执行事务或在设备所有者的帐户上执行侦察。 此外，如果没有适当的会话超时，应用可能容易受到中间人攻击的数据拦截。
 
@@ -12,8 +12,7 @@
 
 此外，确保客户端和服务器端都发生会话超时，以减轻攻击者修改本地超时机制。
 
-## CWE/OWASP 
+## CWE/OWASP
 
- * OWASP Mobile Top 10: [M9 - Improper Session Handling](https://www.owasp.org/index.php/Mobile_Top_10_2014-M9)
- * CWE: [CWE-613 - Insufficient Session Expiration](http://cwe.mitre.org/data/definitions/613.html)
- 
+* [M6 - Insecure Authorization](https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization)
+* [CWE-613 - Insufficient Session Expiration](http://cwe.mitre.org/data/definitions/613.html)
