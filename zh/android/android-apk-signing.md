@@ -1,6 +1,6 @@
 # 签名 Android APKs
 
-## 详细描述 
+## 详细描述
 
 APK应使用未过期的证书正确签名。
 
@@ -24,8 +24,6 @@ $ keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg
 
 ## CWE/OWASP
 
- * [M6 - Broken Cryptography](https://www.owasp.org/index.php/Mobile_Top_10_2014-M6)
+ * [M3 - Insecure Communication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
  * [CWE-310: Cryptographic Issues](http://cwe.mitre.org/data/definitions/310.html)
  * [CWE-326: Inadequate Encryption Strength](http://cwe.mitre.org/data/definitions/326.html)
- 
- 

@@ -11,8 +11,9 @@
 _注意: 这些常量在Android API级别17中已弃用。参考: [http://developer.android.com/reference/android/content/Context.html](http://developer.android.com/reference/android/content/Context.html)_
 
 不要使用chmod二进制或系统调用接受文件模式（chmod，fchmod，creat等）的模式，例如0666,0777和0664，
+_注意: Android 7.0 (API level 24) and higher sets all private directories (`data/data`) to restricted access -- mode 0700 (see [https://developer.android.com/about/versions/nougat/android-7.0-changes.html](https://developer.android.com/about/versions/nougat/android-7.0-changes.html).
 
 ## CWE/OWASP
 
- * [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M2)
+ * [M1 - Improper Platform Usage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage)
  * [CWE 280](http://cwe.mitre.org/data/definitions/280.html)

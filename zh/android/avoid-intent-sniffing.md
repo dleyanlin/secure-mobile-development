@@ -2,7 +2,7 @@
 
 当activity由另一个使用广播Intent的应用程序启动时，Intent中传递的数据可以由恶意应用程序读取。
 
-## 详细描述 
+## 详细描述
 
 当另一个应用程序通过发送广播Intent启动activity时，恶意应用程序可以读取Intent中包含的数据。 恶意应用程序还可以读取应用程序的最近Intent列表。 例如，如果应用程序调用并传递URL到Android Web浏览器，攻击者可以嗅探该URL。
 
@@ -12,5 +12,5 @@
 
 ## CWE/OWASP
 
- * [M8 - Security Decisions via Untrusted Inputs](https://www.owasp.org/index.php/Mobile_Top_10_2014-M8); [M10 - Lack of Binary Protections](https://www.owasp.org/index.php/Mobile_Top_10_2014-M10)
+ * [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality), [M3 - Insecure Communication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
  * [CWE 285: Improper Authorization](http://cwe.mitre.org/data/definitions/285.html)

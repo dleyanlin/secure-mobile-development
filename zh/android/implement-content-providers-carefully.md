@@ -1,6 +1,6 @@
 # 谨慎使用content providers
 
-## 详细描述 
+## 详细描述
 
 Content providers 允许应用程序使用URI寻址方案和关系数据库模型共享数据。 它们也可以用于通过URI方案访问文件。
 
@@ -12,9 +12,9 @@ Content providers 可以声明权限和单独的读写访问。 除非绝对必�
 
 将传递给内容提供者的参数视为不受信任的输入，并且不在没有防护的情况下直接在SQL查询中使用它们。 没有防护的SQL代码可以通过内容提供者请求发送。 如果SQL代码包含在查询中，它可以返回数据或向攻击者提供控制权。
 
-基于文件名传递给提供者的文件的内容提供者应该确保路径遍历被过滤掉。 例如，如果攻击者在请求中包含`../../../ file'，它可能导致程序读取并返回攻击者在其他情况下不能访问的文件中的数据。 应用程序。 此外，请注意，攻击者创建的以下符号链接可能具有类似的结果。
+基于文件名传递给提供者的文件的内容提供者应该确保路径遍历被过滤掉。 例如，如果攻击者在请求中包含`../../../ file`，它可能导致程序读取并返回攻击者在其他情况下不能访问的文件中的数据。 应用程序。 此外，请注意，攻击者创建的以下符号链接可能具有类似的结果。
 
 ## CWE/OWASP
 
- * [M7 - Client Side Injection](https://www.owasp.org/index.php/Mobile_Top_10_2014-M7)
+ * [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
  * [CWE 926: Improper Export of Android Application Components](http://cwe.mitre.org/data/definitions/926.html)

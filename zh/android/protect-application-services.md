@@ -1,6 +1,6 @@
 # 保护应用程序服务
 
-## 详细描述 
+## 详细描述
 
 服务通常用于后台处理。 与BroadcastReceivers和应用程序 activities 一样，应用程序服务可以由外部应用程序调用，因此应该由权限和导出标志保护。
 
@@ -13,26 +13,26 @@
 下面是一个例子，声明并需要在访问`com.example.MyService.`时使用自定义权限
 
 ```xml
-<permission android:name="com.example.mypermission" 
+<permission android:name="com.example.mypermission"
 android:label="my_permission" android:protectionLevel="dangerous"></permission>`
 ```
 ```xml
 <service
 
 	android:name="com.example.MyService"
-	
+
 	android:permission="com.example.mypermission">
-	
+
 	<intent-filter>
-	
+
 		<action android:name="com.example.MY_ACTION" />
-		
+
 	</intent-filter>
-		
+
 </service>
 ```
 
 ## CWE/OWASP
 
- * [M8 - Security Decisions via Untrusted Inputs](https://www.owasp.org/index.php/Mobile_Top_10_2014-M8); [M10 - Lack of Binary Protections](https://www.owasp.org/index.php/Mobile_Top_10_2014-M10)
+ * [M7 - Client Code Quality](https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality)
  * [CWE-280: Improper Handling of Insufficient Permissions or Privileges](http://cwe.mitre.org/data/definitions/280.html)

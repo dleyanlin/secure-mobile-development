@@ -2,7 +2,7 @@
 
 远程支票存款应用程序允许人们使用他们的设备拍摄支票的照片，并将其发送到其金融机构以存入帐户。
 
-## 详细描述 
+## 详细描述
 
 Android将应用程序屏幕保留在内存中，并且多任务可以导致将整个应用程序保留在内存中（即使用户注销其帐户）。 这允许发现或窃取设备的攻击者直接导航到保留的屏幕，其可以包括作为GUI的一部分的敏感用户数据。 例如，如果用户退出银行应用，但不退出或关闭应用，则可以保留显示交易活动的屏幕，并且攻击者可以看到该屏幕。
 
@@ -18,5 +18,5 @@ Android将应用程序屏幕保留在内存中，并且多任务可以导致将�
 
 ## CWE/OWASP
 
- * [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4)
+ * [M2-Insecure_Data_Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
  * [CWE 200: Information Exposure](http://cwe.mitre.org/data/definitions/200.html)
