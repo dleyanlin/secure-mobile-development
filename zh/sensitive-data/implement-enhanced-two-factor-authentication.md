@@ -22,4 +22,4 @@
 ## CWE/OWASP
 
 * [M4 - Insecure Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication)
-* CWE: [CWE-308: Use of Single-factor Authentication](http://cwe.mitre.org/data/definitions/308.html)
+* [CWE-308: Use of Single-factor Authentication](http://cwe.mitre.org/data/definitions/308.html)

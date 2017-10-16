@@ -1,6 +1,6 @@
 # 避免缓存应用程序快照
 
-## 详细描述 
+## 详细描述
 
 为了提供界面中的视觉过渡，iOS会将屏幕截图作为图像存储在设备NAND闪存的文件系统部分中。 当应用程序暂停（而不是终止）时，当按下Home按钮或电话呼叫或其他事件暂时挂起应用程序时，会发生这种情况。 这些图像通常可以包含用户和应用程序数据。 在一个已发布的案例中，它们包含用户的全名，DOB，地址，雇主和信用评分。
 
@@ -13,11 +13,11 @@
 ## 参考
 
  * [Managing Your Applications Flow][1]
- 
-## CWE/OWASP 
 
- * [M4 - Unintended Data Leakage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M4); [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2014-M2)
- * [CWE 200](http://cwe.mitre.org/data/definitions/200.html)
- 
+## CWE/OWASP
+
+* [M2 - Insecure Data Storage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage)
+* [CWE 200](http://cwe.mitre.org/data/definitions/200.html)
+
 <!-- Links -->
 [1]: https://developer.apple.com/library/iOS/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/ManagingYourApplicationsFlow/ManagingYourApplicationsFlow.html#//apple_ref/doc/uid/TP40007072-CH4-SW47
